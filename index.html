@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Profile Card</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="profile-card">
+			<img
+				src="img/my pics.jpg"
+				alt="Profile Picture"
+				data-testid="profilePicture" />
+			<h2 data-testid="fullName">Ifiok-Obong Uduak</h2>
+			<p data-testid="jobTitle">Frontend Developer & Graphic Designer</p>
+			<p data-testid="shortBio">
+				Passionate about building user-friendly interfaces and enhancing user
+				experiences. Always learning and growing in web development.
+			</p>
+			<p data-testid="currentLocation">Nigeria</p>
+			<p data-testid="emailAddress">wisdomudoudo24@gmail.com</p>
+			<div class="social-links" data-testid="socialLinks">
+				<a href="https://github.com/wisssdorrmm" target="_blank">GitHub</a> |
+				<a
+					href="www.linkedin.com/in/ifiok-obong-udoudo-1264b62a8"
+					target="_blank"
+					>LinkedIn</a
+				>
+				<a href="https://twitter.com/@WUdoudo50287" target="_blank">Twitter</a>
+			</div>
+			<p id="utc-time" data-testid="presentTimeUTC"></p>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
